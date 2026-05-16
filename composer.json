@@ -1,0 +1,25 @@
+{
+    "name": "pubvana/sitehealth",
+    "description": "Site health checks for Pubvana",
+    "type": "flightphp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "enlivenapp",
+            "email": "mw@enlivenapp.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "enlivenapp/flight-school": "^0.3",
+        "enlivenapp/flight-settings": "^0.2"
+    },
+    "suggest": {
+        "pubvana/admin": "Admin UI for site health dashboard"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pubvana\\SiteHealth\\": "src/"
+        }
+    }
+}
